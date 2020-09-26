@@ -22,8 +22,8 @@ def nyc_pigeon_organizer(data)
             end                                                # if name in original data array matches that of
           end                                                  # :pigeon_names, :characteristics
         end                                                    # AND if it matches :pigeon_info from original data,
-      end                                                      # convert to string and then push element into the array
-    end
+      end                                                      # convert :details to string 
+    end                                                        # and then push element into the array
   end
   new_data                                                     # return new_data
 end
